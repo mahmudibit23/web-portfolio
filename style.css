@@ -10,7 +10,7 @@ h1{
     font-size: 50px;
 }
 
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -42,4 +42,40 @@ section{
     border-radius: 6px;
     font-weight: 700;
     background: linear-gradient(45deg,lightsalmon, tomato);
+}
+.section-2{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+
+}
+
+.section-3{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#half-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
